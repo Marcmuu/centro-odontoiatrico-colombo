@@ -2210,6 +2210,9 @@ footer {
     flex-direction: column;
     margin-bottom: 2rem;
   }
+  #fila2{
+    flex-direction: column-reverse;
+  }
   .divTextoHistoria, .divTextoHistoria2 {
     width: 100%;
   }
