@@ -1,12 +1,30 @@
 // Menu  responsive
-function myFunction() {
-  var x = document.getElementById(".navbar");
-  if (x.className === "navbar") {
-    x.className += " responsive";
-  } else {
-    x.className = "navbar";
-  }
+let x = document.querySelector(".cross");
+let menuMobile = document.querySelector(".navbar");
+let iconMenu = document.querySelector(".iconMenu");
+
+iconMenu.addEventListener("click", () => {
+  // menuMobile.classList.toggle("main-menu--show");
+  menuMobile.style.transform = "translateY(0)";
+  iconMenu.style.display= "none";
+  x.style.display = "flex";
+});
+x.addEventListener("click", () => {
+  x.style.display= "none";
+  menuMobile.style.transform = "translateY(-100%)";
+  iconMenu.style.display = "flex";
+});
+
+
+if(window.screen.width <= 430){
+  let animations = document.querySelectorAll(".animada");
+  
+  // animations.classList.remove("aos-init");
+  
+  // console.log(typeof(animations))
+
 }
+
 
 /* Rotating Text - ReplaceMe */
 var checkReplace = document.querySelector(".replace-me");

@@ -69,23 +69,20 @@
     <!-- SECCION PORTADA -->
     <section id="portada">
       <nav class="navbar">
+        <button type="button" class="btn-close cross"></button>
         <ul>
           <li><a href="#servicios">SERVIZI</a></li>
           <li><a href="#historia">STORIA</a></li>
           <li><a href="#contacto">CONTATTI</a></li>
         </ul>
-
-        <div class="navbar_toggle">
-          <img src="img/menu.svg" class="icon" onclick="myFunction()" alt="iconoMenu">
-        </div>
       </nav>
 
+      <div class="navbar_toggle">
+        <img src="img/menu.svg" class="iconMenu" alt="iconoMenu">
+      </div>
+      
       <div class="centrar-logo">
-        <img
-          src="img/logoPortadaa.png"
-          class="logo-portada"
-          alt="logo_sin_fondo"
-        />
+        <img src="img/logoPortadaa.png" class="logo-portada" alt="logo_sin_fondo"/>
       </div>
 
       <div class="titulo">
@@ -104,10 +101,10 @@
 
     <!-- SECCION CHI SIAMO  -->
     <section id="chiSiamo">
-      <div class="divIzquierdaChiSiamo" data-aos="fade-right" data-aos-duration="1500">
+      <div class="divIzquierdaChiSiamo animada" data-aos="fade-right" data-aos-duration="1500">
         <img src="img/sheild-dynamic-color.png" class="imatgeChiSiamo" id="iconoChiSiamo" alt=""/>
       </div>
-      <div class="divDerechaChiSiamo" data-aos="fade-left" data-aos-duration="1500">
+      <div class="divDerechaChiSiamo animada" data-aos="fade-left" data-aos-duration="1500">
         <h2 class="titolChiSiamo">CHI SIAMO</h2>
         <p class="introChiSiamo">Benvenuti nel nostro centro odontoiatrico</p>
         <p class="textChiSiamo">
@@ -116,7 +113,7 @@
           Odontoiatrico, mettiamo al centro delle nostre attenzioni la vostra
           salute dentale, offrendo servizi personalizzati e soluzioni avanzate.
         </p>
-        <button class="btnChiSiamo">I NOSTRI SERVIZI</button>
+        <a class="btnChiSiamo" href="#servicios">I NOSTRI SERVIZI</a>
       </div>
 
       <!-- Quan es mobil -->
@@ -129,7 +126,7 @@
           Odontoiatrico, mettiamo al centro delle nostre attenzioni la vostra
           salute dentale, offrendo servizi personalizzati e soluzioni avanzate.
         </p>
-        <button class="btnChiSiamo">I NOSTRI SERVIZI</button>
+        <a class="btnChiSiamo" href="#servicios">I NOSTRI SERVIZI</a>
       </div>
       <div class="divEscudo">
         <img src="img/sheild-dynamic-color.png" class="imatgeChiSiamo" id="iconoEscudo" alt="iconoEscudo"/>
@@ -306,7 +303,7 @@
       <h2 class="titolStoria">STORIA</h2>
       <div class="containerHistoria">
         <div class="fila">
-        <div class="divTextoHistoria" data-aos="fade-right" data-aos-duration="1500">
+        <div class="divTextoHistoria animada" data-aos="fade-right" data-aos-duration="1500">
           <p>
             Benvenuti nel nostro eccezionale
             <span class="degradado">Centro Odontoiatrico Colombo</span>, uno
@@ -320,7 +317,7 @@
           </p>
         </div>
         <div
-          class="divImagenHistoria"
+          class="divImagenHistoria animada"
           data-aos="fade-left"
           data-aos-duration="2000"
         >
@@ -329,14 +326,14 @@
       </div>
       <div class="fila">
         <div
-          class="divImagenHistoria"
+          class="divImagenHistoria animada"
           data-aos="fade-right"
           data-aos-duration="2000"
         >
           <img src="img/sala-recortada.jpeg" class="imagenHistoria" alt="" />
         </div>
         <div
-          class="divTextoHistoria2"
+          class="divTextoHistoria2 animada"
           data-aos="fade-left"
           data-aos-duration="1500"
         >
@@ -354,7 +351,7 @@
     </section>
 
     <!-- SECCION BANNER -->
-    <section id="banner" data-aos="zoom-in" data-aos-duration="1500">
+    <section id="banner" class="animada" data-aos="zoom-in" data-aos-duration="1500">
       <div class="leftBanner">
         <p class="upTitle">Un giorno senza sorriso è un giorno perso!</p>
         <p class="downTitle">Perchè aspettare, chiamaci subito!</p>
@@ -819,7 +816,7 @@
       <h2 class="titolContacto">CONTATTI</h2>
     </div>
     <section class="contacto">
-      <div class="tarjetaIzquierda" data-aos="fade-up-right" data-aos-duration="1500">
+      <div class="tarjetaIzquierda animada" data-aos="fade-up-right" data-aos-duration="1500">
         <a href="https://www.google.com/maps/place/Via+Cristoforo+Colombo,+4,+35020+Albignasego+PD,+Italia/@45.3769316,11.8511019,17z/data=!3m1!4b1!4m6!3m5!1s0x477edb9387c57d91:0x6484e45b6ed2dae2!8m2!3d45.3769279!4d11.8536768!16s%2Fg%2F11crsvlfmd?entry=ttu" target="_blank">
           <div class="rowSection">
             <div class="sectionTarjeta">
@@ -868,7 +865,7 @@
         </a>
       </div>
       
-      <div class="seccionContactoDerecha" data-aos="fade-up-left" data-aos-duration="1500">
+      <div class="seccionContactoDerecha animada" data-aos="fade-up-left" data-aos-duration="1500">
         <span class="subtitolContacto">Informazioni di contatto</span>
         <p>
           Entra in contatto con noi attraverso questa sezione dove ci prendiamo
@@ -918,7 +915,7 @@
     <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2802.606669024177!2d11.851101875816276!3d45.37693163925783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1699549837080!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 
 
-    <section id="sponsors" data-aos="zoom-in" data-aos-duration="500">
+    <section id="sponsors" class="animada" data-aos="zoom-in" data-aos-duration="500">
       <img src="img/logoSponsor.png" alt="">
     </section>
 

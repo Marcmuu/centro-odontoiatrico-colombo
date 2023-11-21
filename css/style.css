@@ -67,9 +67,7 @@ body {
   transform: scale(1.1);
   cursor: pointer;
 }
-.navbar_toggle{
-  display: none !important;
-}
+
 .centrar-logo {
   width: 25%;
   position: absolute;
@@ -81,9 +79,8 @@ body {
   width: 100%;
   /* width: 1200px; */
   filter: drop-shadow(10px 10px 10px #000000);
-  z-index: 0;
+  z-index: 1;
 }
-
 .titulo {
   position: absolute;
   bottom: 0%;
@@ -113,6 +110,14 @@ body {
 .letras {
   font-size: 1.4em;
 }
+
+.navbar_toggle{
+  display: none;
+}
+#portada .navbar .cross{
+    display: none;
+}
+
 
 /* ============================ SECCION CHI SIAMO ============================ */
 #chiSiamo {
@@ -167,10 +172,13 @@ body {
   color: #fff;
   font-family: "Sen", sans-serif;
   border: 0;
+  text-decoration: none;
   background: linear-gradient(to right, #1c9cd8 0%, #36ab49 100%);
   transition: all 0.35s;
 }
 .btnChiSiamo:hover {
+  color: #fff;
+  text-decoration: none;
   background: linear-gradient(to right, #146991 0%, #277d37 100%);
   /* filter: grayscale(0.31); */
   cursor: pointer;
@@ -2017,28 +2025,60 @@ footer {
   
 }
 /* Iphone 12 */
-@media screen and (max-width: 391px) {
-
-  #portada ul {
-    width: 30%;
-    margin: 0;
-    padding: 2rem 0;
-    display: flex;
-    justify-content: space-between;
+@media screen and (max-width: 431px) {
+  #portada{
+    /* position: relative; */
+  }
+  #portada .navbar{
+    width: 100%;
+    position: absolute;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-color: #fff;
+    z-index: 100;
+    transition: transform 0.3s;
+    transform: translateY(-100%);
   }
-  #portada ul li {
-    display: inline-block;
-    /* margin: 0 50px; */
-    list-style: none;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: all 0.35s;
-    z-index: 1;
+  #portada .navbar .cross{
+    align-self: flex-end;
   }
+  #portada .navbar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem 0 1rem 0;
+  }
+  #portada .navbar ul li{
+    width: 60%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  #portada .navbar ul li a{
+    text-decoration: none;
+    color: #454545;
+    font-size: 1.2rem;
+  }
+
+
+  .navbar_toggle{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .iconMenu{
+    width: 50%;
+  }
+
   .centrar-logo {
     width: 80%;
+    z-index: 10;
   }
   .titulo{
     position: absolute;
@@ -2103,6 +2143,10 @@ footer {
     filter: drop-shadow(-40px 0px 30px #33333397);
     position: relative;
     margin: 2em 0 0 0;
+  }
+  .textChiSiamo{
+    width: 100%;
+    text-wrap: pretty;
   }
 
   #elegirnos{
