@@ -4,7 +4,6 @@ let menuMobile = document.querySelector(".navbar");
 let iconMenu = document.querySelector(".iconMenu");
 
 iconMenu.addEventListener("click", () => {
-  // menuMobile.classList.toggle("main-menu--show");
   menuMobile.style.transform = "translateY(0)";
   iconMenu.style.display= "none";
   x.style.display = "flex";
@@ -15,6 +14,12 @@ x.addEventListener("click", () => {
   iconMenu.style.display = "flex";
 });
 
+// Ocultar menu responsive cuando haga click en algun link
+function ocultarNavbar(){
+  x.style.display= "none";
+  menuMobile.style.transform = "translateY(-100%)";
+  iconMenu.style.display = "flex";
+}
 
 
 // Quitar animaciones aos a partir de los 430px
