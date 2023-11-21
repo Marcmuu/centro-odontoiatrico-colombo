@@ -18,6 +18,7 @@ x.addEventListener("click", () => {
 
 if(window.screen.width <= 430){
   let animations = document.querySelectorAll(".animada");
+  let array = [];
   
   // animations.classList.remove("aos-init");
   
