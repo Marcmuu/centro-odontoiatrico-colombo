@@ -82,6 +82,7 @@ body {
   z-index: 1;
 }
 .titulo {
+  width: 100%;
   position: absolute;
   bottom: 0%;
   left: 50%;
@@ -1577,456 +1578,1279 @@ footer {
 
 /* ========================================================================================== */
 
-/* @media screen and (min-width: 1536px){
-  .titolSeccion {
-    font-size: 1.5em;
-    margin-bottom: 2.5em;
-  }
+@media screen and (max-width: 1920px) {
 
-  
+}
+
+@media screen and (max-width: 1536px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1024px) {
   #portada ul {
-    width: 40%;
+    width: 60%;
+    padding: 2rem 0;
   }
   #portada ul li {
-    font-size: 1rem;
-  }
-  .logo-portada {
-    width: 1200px;
-  }
-  .titulo h1, .e, .adjectius {
-    font-size: 2rem;
-  }
-
-  
-  .titolChiSiamo{
     font-size: 1.5rem;
   }
-  .introChiSiamo {
-    width: 90%;
-    font-size: 3em;
+  .centrar-logo {
+    width: 75%;
   }
-  .textChiSiamo{
-    width: 95%;
-    font-size: 1.4rem;
-  }
-  .btnChiSiamo{
-    padding: 10px 30px;
-    font-size: 1rem;
+  .titulo {
+    bottom: 0%;
+}
+  .titulo h1, .e, .adjectius {
+    font-size: 3rem;
   }
 
-  
-  .cajaElegirnos{
+  .introChiSiamo {
+    font-size: 2.3em;
+  }
+
+  .content span {
+    font-size: 2.8em;
+  }
+
+  .upTitle {
+    font-size: 1.8em;
+  }
+  .downTitle {
+    font-size: 1.5em;
+  }
+  .btnContattaci {
     width: 80%;
   }
-  .nav-tabs {
-    width: 80%;
+
+  .divEsquerre {
+    width: 50%;
+    padding: 0;
+    padding-left: 1.5em;
   }
-  .cajaElegirnos ul li {
-    height: 150px;
+  .divDreta {
+    width: 50%;
+    padding: 0 1.5em;
   }
-  .iconosElegirnos {
-    width: 50px;
-    height: 50px;
+  .projects-modals .modal-content h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.6em;
   }
-  .titolCajita{
+  .projects-modals .modal-content hr {
+    width: 20%;
+    margin-top: 0.125rem;
+    margin-bottom: 1.25rem;
+    height: 2px;
+  }
+  .projects-modals .modal-content p {
+    padding-bottom: 1.5rem;
+    font-size: 1em;
+  }
+
+  .divFrase span {
+    font-weight: bold;
     font-size: 1.2rem;
   }
-  .nav-item.cajita .nav-link {
-    border-bottom: 2px solid #30c57b74;
-  }
-  .nav-item.cajita .nav-link:hover {
-    border-bottom: 2px solid #30c57a;
-  }
-  .nav-item.cajita .nav-link.active {
-    border-bottom: 2px solid #30c57a;
-  }
-  .textElegirnos{
-    font-size: 1.5rem;
-  }
-} */
 
-
-/* @media screen and (min-width: 1920px) {
-
-  .titolSeccion {
-    font-size: 2.5em;
+  .divTitolContacto {
+    margin-top: 4rem;
   }
-
-  
-  #portada ul {
+  .tarjetaIzquierda {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1C9CD8; */
+    background: linear-gradient(to right, #1c9cd8cc 0%, #36ab4aca 100%);
+    margin: 0em 2em;
+  }
+  .sectionTarjeta {
+    width: 90%;
+    padding: 3.5em 0;
+  }
+  #map {
+    width: 80%;
+    height: 30vh;
+    margin: 8em 0;
+  }
+
+  .logoFooter, .serviziFooter, .horarioFooter, .contactoFooter {
+    padding: 1em 1em;
+  }
+  .serviziFooter, .horarioFooter, .contactoFooter {
+    height: 280px;
+  }
+  .contactoFooter span {
+    font-size: 1.2em;
+  }
+  .rowContactoFooter a {
+    font-size: 0.8em;
+  }
+  .tituloFooter, .tituloFooter2 {
+    font-size: 1.5em;
+  }
+  .footerBottom p{
+    font-size: 0.5em;
+  }
+  #myBtn {
+    width: 45px;
+    height: 45px;
+  }
+  #myBtn img {
+    margin-bottom: 0.25rem;
+    width: 1.2em;
+  }
+
+}
+  
+
+@media screen and (max-width: 900px) {
+  #portada ul {
+    width: 60%;
+    padding: 2rem 0;
   }
   #portada ul li {
     font-size: 1.5rem;
   }
-  .logo-portada {
-    width: 1400px;
+  .centrar-logo {
+    width: 80%;
   }
-  .titulo h1, .e, .adjectius {
-    font-size: 2.5rem;
+  .titulo {
+    bottom: 0%;
   }
-
-  
-  .titolChiSiamo{
-    font-size: 2rem;
+  .titulo h1, .e {
+    font-size: 3rem;
   }
-  .introChiSiamo {
-    width: 90%;
+  .adjectius{
     font-size: 4em;
   }
-  .textChiSiamo{
-    width: 80%;
-    font-size: 1.8rem;
+
+  .imatgeChiSiamo {
+    width: 60%;
+    transform: translateY(350px);
+    filter: drop-shadow(-40px 0px 30px #33333397);
+    position: relative;
   }
-  .btnChiSiamo{
-    padding: 20px 60px;
-    font-size: 1.5rem;
+  .introChiSiamo {
+    font-size: 2.3em;
+  }
+  
+
+  .textElegirnos {
+    margin: 2em 0em;
+    text-align: center;
+    font-size: 1.3em;
+    text-wrap: pretty;
   }
 
-  
-  .cajaElegirnos{
-    width: 80%;
+  #animation{
+    height: auto;
+    padding: 10em 0;
   }
-  .nav-tabs {
+  #textoAnimado{
+    display: none;
+  }
+  .imatgeSlogan{
+    display: block;
     width: 100%;
   }
-  .cajaElegirnos ul li {
-    height: 250px;
+
+  #historia {
+    padding: 4em 0;
   }
-  .iconosElegirnos {
-    width: 80px;
-    height: 80px;
-  }
-  .titolCajita{
-    font-size: 2rem;
-  }
-  .nav-item.cajita .nav-link {
-    border-bottom: 4px solid #30c57b74;
-  }
-  .nav-item.cajita .nav-link:hover {
-    border-bottom: 4px solid #30c57a;
-  }
-  .nav-item.cajita .nav-link.active {
-    border-bottom: 4px solid #30c57a;
-  }
-  .textElegirnos{
-    font-size: 2rem;
-  }
-  
   .titolStoria {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .divTextoHistoria {
-    width: 50%;
-    font-size: 2em;
+    width: 60%;
+    font-size: 1.5em;
+  }
+  .divImagenHistoria {
+    width: 30%;
   }
   .imagenHistoria {
-    min-height: 800px;
-  }
-  .divTextoHistoria2 {
-    width: 50%;
-    font-size: 2em;
-  }
-  
-  
-  .upTitle {
-    font-size: 3.2em;
-    margin-bottom: 0.2em;
-  }
-  .downTitle {
-    font-size: 2.2em;
-  }
-  .btnContattaci {
-    font-size: 2.2em;
-    padding: 1em 2em;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    min-height: 400px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.767);
   }
 
-  
-  .btn-close {
-    font-size: 1.5rem;
+  .titolSeccion {
+    font-size: 2em;
   }
-  .projects-modals .modal-content h3 {
-    font-size: 3.5em;
+    
+
+  .leftBanner {
+    width: 70%;
+    padding: 3em 0;
+    padding-left: 2em;
   }
-  .projects-modals .modal-content p {
-    font-size: 1.6em;
-  }
-  .projects-modals .modal-content hr {
+  .rightBanner {
     width: 30%;
-    margin-top: 1.125rem;
-    margin-bottom: 1.25rem;
-    height: 4px;
   }
+  .upTitle {
+    font-size: 1.5em;
+  }
+  .downTitle {
+    font-size: 1.2em;
+  }
+  .btnContattaci {
+    width: 80%;
+    font-size: 1em;
+    padding: 1.5em 3em;
+  }
+
   .divEsquerre {
     width: 50%;
-    padding: 0 3em;
+    padding: 0;
+    padding-left: 1.5em;
   }
   .divDreta {
     width: 50%;
-    padding: 0 3em;
+    padding: 0 1.5em;
+  }
+  .projects-modals .modal-content h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.6em;
+  }
+  .projects-modals .modal-content hr {
+    width: 20%;
+    margin-top: 0.125rem;
+    margin-bottom: 1.25rem;
+    height: 2px;
+  }
+  .projects-modals .modal-content p {
+    padding-bottom: 1.5rem;
+    font-size: 1em;
   }
 
-  
-  .divFrase h2 {
-    font-size: 2.5rem;
+  .divFrase span {
+    font-weight: bold;
+    font-size: 1rem;
   }
 
-  
-  .titolContacto{
-    font-size: 2.5rem;
+  .contacto {
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
-  .sectionTarjeta img{
-    width: 100px;
-    height: 100px;
+  .divTitolContacto {
+    margin-top: 4rem;
   }
-  .sectionTarjeta h3 {
-    font-size: 2em;
+  .tarjetaIzquierda {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1c9cd8cc 0%, #36ab4aca 100%);
+    margin: 0em 1em;
+  }
+  .sectionTarjeta {
+    width: 90%;
+    padding: 3.5em 0;
   }
   .sectionTarjeta p {
-    font-size: 1.5rem;
+    font-size: 0.9em;
   }
-  .subtitolContacto {
-    font-size: 2.5rem;
+  .inputContacto {
+    width: 100%;
+    border: 1px solid #9e9e9eaf;
+    padding: 1em 1em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    border-radius: 4px;
   }
-  .seccionContactoDerecha p {
-    font-size: 1.5rem;
-  }
-  .btnContacto {
-    font-size: 1.5rem;
-    padding: 1em 1.5em;
+  #map {
+    width: 80%;
+    height: 30vh;
+    margin: 8em 0;
   }
 
-  
-  .serviziFooter p {
-    font-size: 1em;
-    margin-bottom: 0.15em;
+  .logoFooter, .serviziFooter, .horarioFooter, .contactoFooter {
+    padding: 1em 0.5em;
+  }
+  .serviziFooter, .horarioFooter, .contactoFooter {
+    height: 280px;
   }
   .cajitaHorario p {
-    font-size: 1.2em;
-    margin-bottom: 0.15em;
+    font-size: 0.9em;
   }
-  .iconoContactoFooter {
-    width: 40px;
-    height: 40px;
-  }
-  .textContactoFooter h2 {
-    font-size: 1.2em;
-  }
-  .textContactoFooter p{
+  .contactoFooter span {
     font-size: 1em;
   }
-  
-  .footerBottom p {
-    font-size: 1em;
+  .rowContactoFooter a {
+    font-size: 0.7em;
   }
-} */
-
-
-/* @media screen and (max-width: 1024px) {
-  .titolSeccion {
+  .tituloFooter, .tituloFooter2 {
     font-size: 1.5em;
   }
+  .footerBottom p{
+    font-size: 0.4em;
+  }
 
-  
-  #portada ul {
-    width: 40%;
+  #myBtn {
+    width: 45px;
+    height: 45px;
   }
-  #portada ul li {
-    font-size: 1rem;
+  #myBtn img {
+    margin-bottom: 0.25rem;
+    width: 1.2em;
   }
-  .logo-portada {
-    width: 900px;
+
+}
+@media screen and (max-width: 768px) {
+  #portada .navbar{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 100;
+    transition: transform 0.3s;
+    transform: translateY(-100%);
   }
-  .titulo h1, .e, .adjectius {
+  #portada .navbar .cross{
+    align-self: flex-end;
+  }
+  #portada .navbar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem 0 1rem 0;
+  }
+  #portada .navbar ul li{
+    width: 60%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  #portada .navbar ul li a{
+    text-decoration: none;
+    color: #454545;
     font-size: 1.5rem;
   }
-
-  
-  .titolChiSiamo{
-    font-size: 1.2rem;
+  .navbar_toggle{
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+    z-index: 100;
   }
-  .introChiSiamo {
+  .iconMenu{
+    width: 80%;
+  }
+  .centrar-logo {
+    width: 60%;
+    z-index: 10;
+  }
+  .titulo{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulo h1, .e {
+    margin: 0;
+    padding: 0;
+    font-size: 2.7rem;
+    color: #fff;
+  }
+  .adjectius{
+    font-size: 3.5rem;
+  }
+
+  #chiSiamo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 6em 0;
+    background-color: #f5f6fb;
+    overflow: hidden;
+  }
+  .divIzquierdaChiSiamo {
+    display: none;
+  }
+  .divDerechaChiSiamo {
+    display: none;
+  }
+  .divChiSiamo {
     width: 90%;
-    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .titolChiSiamo{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  } 
+  .introChiSiamo{
+    font-size: 3rem;
+  }
+  .divEscudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .imatgeChiSiamo{
+    width: 60%;
+    transform: translateY(0);
+    filter: drop-shadow(-40px 0px 30px #33333397);
+    position: relative;
+    margin: 2em 0 0 0;
   }
   .textChiSiamo{
-    width: 80%;
-    font-size: 1rem;
+    width: 100%;
+    text-wrap: pretty;
+    font-size: 1.8em;;
   }
-  .btnChiSiamo{
-    padding: 10px 30px;
-    font-size: 1rem;
-  }
+  .btnChiSiamo {
+    padding: 1em 3em;
+    font-size: 1.5em;
+}
 
-  
-  .cajaElegirnos{
-    width: 80%;
+  #elegirnos{
+    padding: 6em 0;
   }
-  .nav-tabs {
+  .cajita {
+    width: 25%;
+  }
+  .cajaElegirnos {
     width: 100%;
   }
   .cajaElegirnos ul li {
     height: 150px;
   }
   .iconosElegirnos {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1em;
   }
-  .titolCajita{
-    font-size: 1rem;
+  .titolCajita {
+    font-size: 1em;
+    font-weight: 600;
+    color: #454545;
+    text-align: center;
   }
   .nav-item.cajita .nav-link {
+    border-bottom: none;
     border-bottom: 2px solid #30c57b74;
   }
-  .nav-item.cajita .nav-link:hover {
-    border-bottom: 2px solid #30c57a;
-  }
   .nav-item.cajita .nav-link.active {
+    border-bottom: none;
     border-bottom: 2px solid #30c57a;
   }
-  .textElegirnos{
-    font-size: 1rem;
+  .textElegirnos {
+    margin-top: 2em;
+    margin: 1em 0.5em;
+    text-align: center;
+    font-size: 1.7em;
   }
 
-  
-  #animation {
-    padding: 0;
+  #animation{
+    height: auto;
+    padding: 6em 0;
   }
-  
-  .char1, .char30{
-    font-size: 2.5em;
+  #textoAnimado{
+    display: none;
   }
-
-
-  
-  .titolStoria {
-    font-size: 2.5em;
-  }
-  .divTextoHistoria {
-    width: 50%;
-    font-size: 2em;
-  }
-  .imagenHistoria {
-    min-height: 800px;
-  }
-  .divTextoHistoria2 {
-    width: 50%;
-    font-size: 2em;
-  }
-  
-  
-  .upTitle {
-    font-size: 3.2em;
-    margin-bottom: 0.2em;
-  }
-  .downTitle {
-    font-size: 2.2em;
-  }
-  .btnContattaci {
-    font-size: 2.2em;
-    padding: 1em 2em;
+  .imatgeSlogan{
+    display: block;
+    width: 100%;
   }
 
-  
-  .btn-close {
+  #historia{
+    padding: 6em 0;
+  }
+  .titolStoria{
+    margin-bottom: 2rem;
+  }
+  .containerHistoria{
+    width: 92%;
+  }
+  .containerHistoria .fila{
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  #fila2{
+    flex-direction: column-reverse;
+  }
+  .divTextoHistoria, .divTextoHistoria2 {
+    width: 100%;
+    text-wrap: wrap;
+  }
+  .divTextoHistoria p, .divTextoHistoria2 p{
     font-size: 1.5rem;
   }
+  .divImagenHistoria{
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .imagenHistoria{
+    width: 60%;
+    height: auto;
+    min-height: 600px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.767);
+  }
+
+  #banner{
+    display: none;
+  }
+
+  #servicios{
+    padding-bottom: 6rem;
+  }
+  h2.titolSeccion{
+    font-size: 2rem;
+  }
+  .containerServicios {
+    width: 95%;
+  }
+  .gridServicios {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .lastRow {
+    width: 100%;
+  }
+  .element-item:hover img, .element-item2:hover img{
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .element-item .element-item-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .element-item2 .element-item-overlay2 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .element-item .element-item-overlay, .element-item2 .element-item-overlay2 {
+    opacity: 1;
+  }
+  .element-item .element-item-overlay span, .element-item2 .element-item-overlay2 span {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  
+  .modal-dialog{
+    left:5%;
+  }
+  .modal-dialog{
+    margin: 0;
+    width: 100%;
+  }
+  .btn-close {
+    font-size: 0.8rem;
+  }
+  .projects-modals .modal-dialog {
+    max-width: 90%;
+    margin-top: 2em;
+  }
+  .projects-modals .modal-content .image-container {
+    margin-bottom: 1rem;
+  }
+  .projects-modals .modal-content img {
+    border-radius: 6px;
+    margin-bottom: 0;
+  }
   .projects-modals .modal-content h3 {
-    font-size: 3.5em;
+    margin-bottom: 0.5rem;
+    font-size: 2em;
+    text-align: center;
   }
   .projects-modals .modal-content p {
-    font-size: 1.6em;
+    padding-bottom: 1rem;
+    font-size: 1.5em;
+    text-align: center;
   }
   .projects-modals .modal-content hr {
-    width: 30%;
-    margin-top: 1.125rem;
-    margin-bottom: 1.25rem;
-    height: 4px;
+    margin: 1rem 0;
+  }
+  .divModalCol {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .divModalRow {
+    width: 100%;
+    flex-direction: column;
   }
   .divEsquerre {
-    width: 50%;
-    padding: 0 3em;
+    width: 90%;
+    padding: 0 0em;
   }
   .divDreta {
-    width: 50%;
-    padding: 0 3em;
+    width: 100%;
+    padding: 0 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
-  
-  .divFrase h2 {
-    font-size: 2.5rem;
+  #slideDentadura{
+    padding: 6em 0 0 0;
+    margin-bottom: 6em;
+  }
+  .rowDentadura{
+    flex-direction: column;
+  }
+  .divDentadura, .divFrase{
+    width: 100%;
+  }
+  .divFrase span {
+    font-size: 1.7rem;
+    padding: 10rem 0;
   }
 
-  
-  .titolContacto{
-    font-size: 2.5rem;
+  .divTitolContacto {
+    padding-top: 6em;
   }
-  .sectionTarjeta img{
-    width: 100px;
-    height: 100px;
+  .contacto{
+    flex-direction: column;
+    padding-bottom: 0em;
   }
-  .sectionTarjeta h3 {
+  .tamañoCorreo{
+    font-size: 1rem;
+  }
+  .tarjetaIzquierda {
+    width: 95%;
+    margin: 0em 6em;
+    margin: auto;
+  }
+  .rowSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionTarjeta{
+    width: 80%;
+    padding: 4rem 0;
+  }
+  .divIconoTarjeta{
+    width: 25%;
+  }
+  .tarjetaColumn{
+    width: 75%;
+  }
+  .sectionTarjeta span {
     font-size: 2em;
   }
   .sectionTarjeta p {
-    font-size: 1.5rem;
+    font-size: 1.4em;
+  }
+  .seccionContactoDerecha{
+    width: 90%;
+    padding: 2rem 0;
   }
   .subtitolContacto {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
   }
-  .seccionContactoDerecha p {
-    font-size: 1.5rem;
+  .seccionContactoDerecha p{
+    display: none;
   }
-  .btnContacto {
-    font-size: 1.5rem;
-    padding: 1em 1.5em;
+  .rowContacto{
+    flex-direction: column;
+  }
+  .inputContacto{
+    margin-right: 0;
+  }
+  .divTextarea{
+    padding: 0;
+  }
+  .divConsentimiento{
+    color: #fff;
+  }
+  .divConsentimiento p {
+    color: #fff;
+    margin: 2em;
+  }
+  .divBtnContacto{
+    padding: 0;
+  }
+  .btnContacto{
+    margin: 1rem 0;
   }
 
+  #map {
+    width: 90%;
+    height: 60vh;
+    margin: 4em 0;
+  }
   
-  .serviziFooter p {
-    font-size: 1em;
-    margin-bottom: 0.15em;
+  #sponsors img{
+    width: 95%;
+  }
+
+  .footerTop{
+    width: 100%;
+    flex-direction: column;
+  }
+  .logoFooter, .serviziFooter, .horarioFooter, .contactoFooter {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+  }
+  .serviziFooter, .horarioFooter, .contactoFooter {
+    height: 400px;
+  }
+  .tituloFooter, .tituloFooter2 {
+  font-size: 2em;
+  }
+  .serviziFooter p{
+    text-align: center;
+    font-size: 1.5em;
   }
   .cajitaHorario p {
-    font-size: 1.2em;
-    margin-bottom: 0.15em;
+    font-size: 1.5em;
+  }
+  .cajitaHorario p {
+    font-size: 1.5em;
+  }
+  .divTextContactoFooter span{
+    font-size: 1.5rem;
+  }
+  .divTextContactoFooter a{
+    font-size: 1.3rem;
   }
   .iconoContactoFooter {
     width: 40px;
     height: 40px;
   }
-  .textContactoFooter h2 {
-    font-size: 1.2em;
+  
+  .footerBottom{
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
   }
-  .textContactoFooter p{
+  .footerBottom p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #myBtn {
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  #myBtn:hover {
+    background: linear-gradient(to right, #1c9cd8ca 0%, #36ab4ac5 100%);
+    transition: background 2s linear;
+  }
+  #myBtn img {
+    margin-bottom: 0.25rem;
+    width: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width: 720px) {
+  #portada .navbar{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 100;
+    transition: transform 0.3s;
+    transform: translateY(-100%);
+  }
+  #portada .navbar .cross{
+    align-self: flex-end;
+  }
+  #portada .navbar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem 0 1rem 0;
+  }
+  #portada .navbar ul li{
+    width: 60%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  #portada .navbar ul li a{
+    text-decoration: none;
+    color: #454545;
+    font-size: 1.5rem;
+  }
+  .navbar_toggle{
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .iconMenu{
+    width: 80%;
+  }
+  .centrar-logo {
+    width: 60%;
+    z-index: 10;
+  }
+  .titulo{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulo h1, .e {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .adjectius{
+    font-size: 3rem;
+  }
+
+  #chiSiamo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 6em 0;
+    background-color: #f5f6fb;
+    overflow: hidden;
+  }
+  .divIzquierdaChiSiamo {
+    display: none;
+  }
+  .divDerechaChiSiamo {
+    display: none;
+  }
+  .divChiSiamo {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .titolChiSiamo{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  } 
+  .introChiSiamo{
+    font-size: 3rem;
+  }
+  .divEscudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .imatgeChiSiamo{
+    width: 60%;
+    transform: translateY(0);
+    filter: drop-shadow(-40px 0px 30px #33333397);
+    position: relative;
+    margin: 2em 0 0 0;
+  }
+  .textChiSiamo{
+    width: 100%;
+    text-wrap: pretty;
+    font-size: 1.8em;;
+  }
+  .btnChiSiamo {
+    padding: 1em 3em;
+    font-size: 1.5em;
+}
+
+  #elegirnos{
+    padding: 6em 0;
+  }
+  .cajita {
+    width: 25%;
+  }
+  .cajaElegirnos {
+    width: 100%;
+  }
+  .cajaElegirnos ul li {
+    height: 150px;
+  }
+  .iconosElegirnos {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1em;
+  }
+  .titolCajita {
     font-size: 1em;
+    font-weight: 600;
+    color: #454545;
+    text-align: center;
+  }
+  .nav-item.cajita .nav-link {
+    border-bottom: none;
+    border-bottom: 2px solid #30c57b74;
+  }
+  .nav-item.cajita .nav-link.active {
+    border-bottom: none;
+    border-bottom: 2px solid #30c57a;
+  }
+  .textElegirnos {
+    margin-top: 2em;
+    margin: 1em 0.5em;
+    text-align: center;
+    font-size: 1.7em;
+  }
+
+  #animation{
+    height: auto;
+    padding: 6em 0;
+  }
+  #textoAnimado{
+    display: none;
+  }
+  .imatgeSlogan{
+    display: block;
+    width: 100%;
+  }
+
+  #historia{
+    padding: 6em 0;
+  }
+  .titolStoria{
+    margin-bottom: 2rem;
+  }
+  .containerHistoria{
+    width: 92%;
+  }
+  .containerHistoria .fila{
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  #fila2{
+    flex-direction: column-reverse;
+  }
+  .divTextoHistoria, .divTextoHistoria2 {
+    width: 100%;
+    text-wrap: wrap;
+  }
+  .divTextoHistoria p, .divTextoHistoria2 p{
+    font-size: 1.5rem;
+  }
+  .divImagenHistoria{
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .imagenHistoria{
+    width: 60%;
+    height: auto;
+    min-height: 600px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.767);
+  }
+
+  #banner{
+    display: none;
+  }
+
+  #servicios{
+    padding-bottom: 6rem;
+  }
+  h2.titolSeccion{
+    font-size: 2rem;
+  }
+  .containerServicios {
+    width: 95%;
+  }
+  .gridServicios {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .lastRow {
+    width: 100%;
+  }
+  .element-item:hover img, .element-item2:hover img{
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .element-item .element-item-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .element-item2 .element-item-overlay2 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .element-item .element-item-overlay, .element-item2 .element-item-overlay2 {
+    opacity: 1;
+  }
+  .element-item .element-item-overlay span, .element-item2 .element-item-overlay2 span {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    line-height: 1rem;
   }
   
-  .footerBottom p {
-    font-size: 1em;
+  .modal-dialog{
+    left:5%;
   }
-} */
+  .modal-dialog{
+    margin: 0;
+    width: 100%;
+  }
+  .btn-close {
+    font-size: 1rem;
+  }
+  .projects-modals .modal-dialog {
+    max-width: 90%;
+    margin-top: 2em;
+  }
+  .projects-modals .modal-content .image-container {
+    margin-bottom: 1rem;
+  }
+  .projects-modals .modal-content img {
+    border-radius: 6px;
+    margin-bottom: 0;
+  }
+  .projects-modals .modal-content h3 {
+    margin-bottom: 0.5rem;
+    font-size: 2em;
+    text-align: center;
+  }
+  .projects-modals .modal-content p {
+    padding-bottom: 1rem;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .projects-modals .modal-content hr {
+    margin: 1rem 0;
+  }
+  .divModalCol {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .divModalRow {
+    width: 100%;
+    flex-direction: column;
+  }
+  .divEsquerre {
+    width: 90%;
+    padding: 0 0em;
+  }
+  .divDreta {
+    width: 100%;
+    padding: 0 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
+  #slideDentadura{
+    padding: 6em 0 0 0;
+    margin-bottom: 6em;
+  }
+  .rowDentadura{
+    flex-direction: column;
+  }
+  .divDentadura, .divFrase{
+    width: 100%;
+  }
+  .divFrase span {
+    font-size: 1.7rem;
+    padding: 10rem 0;
+  }
 
-@media screen and (min-width: 1366px) {
+  .divTitolContacto {
+    padding-top: 6em;
+  }
+  .contacto{
+    flex-direction: column;
+    padding-bottom: 0em;
+  }
+  .tamañoCorreo{
+    font-size: 1rem;
+  }
+  .tarjetaIzquierda {
+    width: 95%;
+    margin: 0em 6em;
+    margin: auto;
+  }
+  .rowSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionTarjeta{
+    width: 80%;
+    padding: 3rem 0;
+  }
+  .divIconoTarjeta{
+    width: 25%;
+  }
+  .tarjetaColumn{
+    width: 75%;
+  }
+  .sectionTarjeta span {
+    font-size: 2em;
+  }
+  .sectionTarjeta p {
+    font-size: 1.4em;
+  }
+  .seccionContactoDerecha{
+    width: 90%;
+    padding: 2rem 0;
+  }
+  .subtitolContacto {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .seccionContactoDerecha p{
+    display: none;
+  }
+  .rowContacto{
+    flex-direction: column;
+  }
+  .inputContacto{
+    margin-right: 0;
+  }
+  .divTextarea{
+    padding: 0;
+  }
+  .divConsentimiento{
+    color: #fff;
+  }
+  .divConsentimiento p {
+    color: #fff;
+    margin: 2em;
+  }
+  .divBtnContacto{
+    padding: 0;
+  }
+  .btnContacto{
+    margin: 1rem 0;
+  }
+
+  #map {
+    width: 90%;
+    height: 60vh;
+    margin: 4em 0;
+  }
+  
+  #sponsors img{
+    width: 95%;
+  }
+
+  .footerTop{
+    width: 100%;
+    flex-direction: column;
+  }
+  .logoFooter, .serviziFooter, .horarioFooter, .contactoFooter {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+  }
+  .serviziFooter, .horarioFooter, .contactoFooter {
+    height: 400px;
+  }
+  .tituloFooter, .tituloFooter2 {
+  font-size: 2em;
+  }
+  .serviziFooter p{
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .cajitaHorario p {
+    font-size: 1.5em;
+  }
+  .cajitaHorario p {
+    font-size: 1.5em;
+  }
+  .divTextContactoFooter span{
+    font-size: 1.5rem;
+  }
+  .divTextContactoFooter a{
+    font-size: 1.3rem;
+  }
+  .iconoContactoFooter {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footerBottom{
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footerBottom p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #myBtn {
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  #myBtn:hover {
+    background: linear-gradient(to right, #1c9cd8ca 0%, #36ab4ac5 100%);
+    transition: background 2s linear;
+  }
+  #myBtn img {
+    margin-bottom: 0.25rem;
+    width: 1.5rem;
+  }
 
 }
 
-@media screen and (min-width: 1024px) {
-  
-}
-
-@media screen and (min-width: 720px) {
-  
-
-}
-
-@media screen and (min-width: 430px) {
-  
-  
-}
-
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
   #portada .navbar{
     width: 100%;
     position: absolute;
@@ -2072,13 +2896,13 @@ footer {
     width: 50%;
   }
   .centrar-logo {
-    width: 80%;
+    width: 75%;
     z-index: 10;
   }
   .titulo{
     position: absolute;
     width: 100%;
-    bottom: 5%;
+    bottom: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -2141,6 +2965,11 @@ footer {
   .textChiSiamo{
     width: 100%;
     text-wrap: pretty;
+    font-size: 1.2em;
+  }
+  .btnChiSiamo {
+    padding: 1em 3em;
+    font-size: 1em;
   }
 
   #elegirnos{
@@ -2161,7 +2990,7 @@ footer {
     margin-bottom: 1em;
   }
   .titolCajita {
-    font-size: .65em;
+    font-size: .80em;
     font-weight: 600;
     color: #454545;
     text-align: center;
@@ -2342,6 +3171,935 @@ footer {
     width: 100%;
   }
   .divFrase span {
+    font-size: 1.2rem;
+    padding: 6rem 0;
+  }
+
+  .divTitolContacto {
+    padding-top: 6em;
+  }
+  .contacto{
+    flex-direction: column;
+    padding-bottom: 0em;
+  }
+  .tamañoCorreo{
+    font-size: 0.8rem;
+  }
+  .tarjetaIzquierda {
+    width: 95%;
+    margin: 0em 6em;
+    margin: auto;
+  }
+  .rowSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionTarjeta{
+    width: 80%;
+    padding: 2rem 0;
+  }
+  .sectionTarjeta span{
+    font-size: 1.5em;
+  }
+  .sectionTarjeta p{
+    font-size: 1em;
+  }
+  .divIconoTarjeta{
+    width: 25%;
+  }
+  .tarjetaColumn{
+    width: 75%;
+  }
+  .seccionContactoDerecha{
+    width: 90%;
+    padding: 2rem 0;
+  }
+  .subtitolContacto {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .seccionContactoDerecha p{
+    display: none;
+  }
+  .rowContacto{
+    flex-direction: column;
+  }
+  .inputContacto{
+    margin-right: 0;
+  }
+  .divTextarea{
+    padding: 0;
+  }
+  .divConsentimiento{
+    color: #fff;
+  }
+  .divConsentimiento p {
+    color: #fff;
+    margin: 2em;
+  }
+  .divBtnContacto{
+    padding: 0;
+  }
+  .btnContacto{
+    margin: 1rem 0;
+  }
+
+  #map {
+    width: 90%;
+    height: 60vh;
+    margin: 4em 0;
+  }
+  
+  #sponsors img{
+    width: 90%;
+  }
+
+  .footerTop{
+    width: 100%;
+    flex-direction: column;
+  }
+  .logoFooter, .serviziFooter, .horarioFooter, .contactoFooter {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+  }
+  .tituloFooter, .tituloFooter2 {
+    font-size: 1.5em;
+  }
+  .serviziFooter, .horarioFooter, .contactoFooter {
+    height: 300px;
+  }
+  .serviziFooter p, .horarioFooter p, .contactoFooter a{
+    font-size: 1em;
+  }
+  .contactoFooter span{
+    font-size: 1.3em;
+  }
+  .hoverFooter{
+    font-size: 1rem;
+  }
+
+  .footerBottom{
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footerBottom p{
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #myBtn {
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #myBtn:hover {
+    background: linear-gradient(to right, #1c9cd8ca 0%, #36ab4ac5 100%);
+    transition: background 2s linear;
+  }
+  #myBtn img {
+    margin-bottom: 0.25rem;
+    width: 1.3em;
+  }
+
+}
+
+@media screen and (max-width: 431px) {
+  #portada .navbar{
+    width: 100%;
+    position: absolute;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 100;
+    transition: transform 0.3s;
+    transform: translateY(-100%);
+  }
+  #portada .navbar .cross{
+    align-self: flex-end;
+  }
+  #portada .navbar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem 0 1rem 0;
+  }
+  #portada .navbar ul li{
+    width: 60%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  #portada .navbar ul li a{
+    text-decoration: none;
+    color: #454545;
+    font-size: 1.2rem;
+  }
+  .navbar_toggle{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .iconMenu{
+    width: 50%;
+  }
+  .centrar-logo {
+    width: 80%;
+    z-index: 10;
+  }
+  .titulo{
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulo h1, .e {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .adjectius{
+    font-size: 2rem;
+  }
+
+  #chiSiamo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 6em 0;
+    background-color: #f5f6fb;
+    overflow: hidden;
+  }
+  .divIzquierdaChiSiamo {
+    display: none;
+  }
+  .divDerechaChiSiamo {
+    display: none;
+  }
+  .divChiSiamo {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .titolChiSiamo{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  } 
+  .introChiSiamo{
+    font-size: 2rem;
+  }
+  .divEscudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .imatgeChiSiamo{
+    width: 60%;
+    transform: translateY(0);
+    filter: drop-shadow(-40px 0px 30px #33333397);
+    position: relative;
+    margin: 2em 0 0 0;
+  }
+  .textChiSiamo{
+    width: 100%;
+    text-wrap: pretty;
+    font-size: 1.2em;
+  }
+  .btnChiSiamo {
+    padding: 1em 3em;
+    font-size: 1em;
+  }
+
+  #elegirnos{
+    padding: 6em 0;
+  }
+  .cajita {
+    width: 25%;
+  }
+  .cajaElegirnos {
+    width: 100%;
+  }
+  .cajaElegirnos ul li {
+    height: 100px;
+  }
+  .iconosElegirnos {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1em;
+  }
+  .titolCajita {
+    font-size: .70em;
+    font-weight: 600;
+    color: #454545;
+    text-align: center;
+  }
+  .nav-item.cajita .nav-link {
+    border-bottom: none;
+    border-bottom: 2px solid #30c57b74;
+  }
+  .nav-item.cajita .nav-link.active {
+    border-bottom: none;
+    border-bottom: 2px solid #30c57a;
+  }
+  .textElegirnos {
+    margin-top: 2em;
+    margin: 1em 0.5em;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  #animation{
+    height: auto;
+    padding: 6em 0;
+  }
+  #textoAnimado{
+    display: none;
+  }
+  .imatgeSlogan{
+    display: block;
+    width: 100%;
+  }
+
+  #historia{
+    padding: 6em 0;
+  }
+  .titolStoria{
+    margin-bottom: 1.5rem;
+  }
+  .containerHistoria{
+    width: 92%;
+  }
+  .containerHistoria .fila{
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  #fila2{
+    flex-direction: column-reverse;
+  }
+  .divTextoHistoria, .divTextoHistoria2 {
+    width: 100%;
+    text-wrap: wrap;
+  }
+  .divTextoHistoria p, .divTextoHistoria2 p{
+    font-size: 1.2rem;
+    /* text-wrap: wrap; */
+  }
+  .divImagenHistoria{
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .imagenHistoria{
+    width: 70%;
+    height: auto;
+    min-height: 400px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.767);
+  }
+
+  #banner{
+    display: none;
+  }
+
+  #servicios{
+    padding-bottom: 6rem;
+  }
+  h2.titolSeccion{
+    font-size: 1.4rem;
+  }
+  .containerServicios {
+    width: 95%;
+  }
+  .gridServicios {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .lastRow {
+    width: 100%;
+  }
+  .element-item:hover img, .element-item2:hover img{
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .element-item .element-item-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .element-item2 .element-item-overlay2 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .element-item .element-item-overlay, .element-item2 .element-item-overlay2 {
+    opacity: 1;
+  }
+  .element-item .element-item-overlay span, .element-item2 .element-item-overlay2 span {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  
+  .modal-dialog{
+    left:5%;
+  }
+  .modal-dialog{
+    margin: 0;
+    width: 100%;
+  }
+  .btn-close {
+    font-size: 0.8rem;
+  }
+  .projects-modals .modal-dialog {
+    max-width: 90%;
+    margin-top: 2em;
+  }
+  .projects-modals .modal-content .image-container {
+    margin-bottom: 1rem;
+  }
+  .projects-modals .modal-content img {
+    border-radius: 6px;
+    margin-bottom: 0;
+  }
+  .projects-modals .modal-content h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .projects-modals .modal-content p {
+    padding-bottom: 1rem;
+    font-size: 1em;
+    text-align: center;
+  }
+  .projects-modals .modal-content hr {
+    margin: 0.5rem 0;
+  }
+  .divModalCol {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .divModalRow {
+    width: 100%;
+    flex-direction: column;
+  }
+  .divEsquerre {
+    width: 90%;
+    padding: 0 0em;
+  }
+  .divDreta {
+    width: 100%;
+    padding: 0 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #slideDentadura{
+    padding: 6em 0 0 0;
+    margin-bottom: 6em;
+  }
+  .rowDentadura{
+    flex-direction: column;
+  }
+  .divDentadura, .divFrase{
+    width: 100%;
+  }
+  .divFrase span {
+    font-size: 1.2rem;
+    padding: 6rem 0;
+  }
+
+  .divTitolContacto {
+    padding-top: 6em;
+  }
+  .contacto{
+    flex-direction: column;
+    padding-bottom: 0em;
+  }
+  .tamañoCorreo{
+    font-size: 0.8rem;
+  }
+  .tarjetaIzquierda {
+    width: 95%;
+    margin: 0em 6em;
+    margin: auto;
+  }
+  .rowSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionTarjeta{
+    width: 80%;
+    padding: 2rem 0;
+  }
+  .sectionTarjeta span{
+    font-size: 1.5em;
+  }
+  .sectionTarjeta p{
+    font-size: 1em;
+  }
+  .divIconoTarjeta{
+    width: 25%;
+  }
+  .tarjetaColumn{
+    width: 75%;
+  }
+  .seccionContactoDerecha{
+    width: 90%;
+    padding: 2rem 0;
+  }
+  .subtitolContacto {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .seccionContactoDerecha p{
+    display: none;
+  }
+  .rowContacto{
+    flex-direction: column;
+  }
+  .inputContacto{
+    margin-right: 0;
+  }
+  .divTextarea{
+    padding: 0;
+  }
+  .divConsentimiento{
+    color: #fff;
+  }
+  .divConsentimiento p {
+    color: #fff;
+    margin: 2em;
+  }
+  .divBtnContacto{
+    padding: 0;
+  }
+  .btnContacto{
+    margin: 1rem 0;
+  }
+
+  #map {
+    width: 90%;
+    height: 60vh;
+    margin: 4em 0;
+  }
+  
+  #sponsors img{
+    width: 90%;
+  }
+
+  .footerTop{
+    width: 100%;
+    flex-direction: column;
+  }
+  .logoFooter, .serviziFooter, .horarioFooter, .contactoFooter {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+  }
+  .tituloFooter, .tituloFooter2 {
+    font-size: 1.5em;
+  }
+  .serviziFooter, .horarioFooter, .contactoFooter {
+    height: 300px;
+  }
+  .serviziFooter p, .horarioFooter p, .contactoFooter a{
+    font-size: 1em;
+  }
+  .contactoFooter span{
+    font-size: 1.3em;
+  }
+  .hoverFooter{
+    font-size: 1rem;
+  }
+
+  .footerBottom{
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footerBottom p{
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #myBtn {
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #myBtn:hover {
+    background: linear-gradient(to right, #1c9cd8ca 0%, #36ab4ac5 100%);
+    transition: background 2s linear;
+  }
+  #myBtn img {
+    margin-bottom: 0.25rem;
+    width: 1.3em;
+  }
+
+}
+
+@media screen and (max-width: 376px) {
+  #portada .navbar{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 100;
+    transition: transform 0.3s;
+    transform: translateY(-100%);
+  }
+  #portada .navbar .cross{
+    align-self: flex-end;
+  }
+  #portada .navbar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem 0 1rem 0;
+  }
+  #portada .navbar ul li{
+    width: 60%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  #portada .navbar ul li a{
+    text-decoration: none;
+    color: #454545;
+    font-size: 1.2rem;
+  }
+  .navbar_toggle{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .iconMenu{
+    width: 50%;
+  }
+  .centrar-logo {
+    width: 80%;
+    z-index: 10;
+  }
+  .titulo{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulo h1, .e {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    color: #fff;
+  }
+  .adjectius{
+    font-size: 2rem;
+  }
+
+  #chiSiamo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 6em 0;
+    background-color: #f5f6fb;
+    overflow: hidden;
+  }
+  .divIzquierdaChiSiamo {
+    display: none;
+  }
+  .divDerechaChiSiamo {
+    display: none;
+  }
+  .divChiSiamo {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .divEscudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .titolChiSiamo{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  } 
+  .introChiSiamo{
+    font-size: 2rem;
+  }
+  .textChiSiamo{
+    width: 100%;
+    font-size: 1rem;
+    text-wrap: pretty;
+  }
+  .btnChiSiamo {
+    padding: 10px 30px;
+    color: #fff;
+    font-family: "Sen", sans-serif;
+    border: 0;
+    font-size: 1em;
+    text-decoration: none;
+    background: linear-gradient(to right, #1c9cd8 0%, #36ab49 100%);
+    transition: all 0.35s;
+  }
+  .imatgeChiSiamo{
+    width: 70%;
+    transform: translateY(0);
+    filter: drop-shadow(-40px 0px 30px #33333397);
+    position: relative;
+    margin: 2em 0 0 0;
+  }
+  
+  
+
+  #elegirnos{
+    padding: 6em 0;
+  }
+  .cajita {
+    width: 25%;
+  }
+  .cajaElegirnos {
+    width: 100%;
+  }
+  .cajaElegirnos ul li {
+    height: 100px;
+  }
+  .iconosElegirnos {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1em;
+  }
+  .titolCajita {
+    font-size: .55em;
+    font-weight: 600;
+    color: #454545;
+    text-align: center;
+  }
+  .nav-item.cajita .nav-link {
+    border-bottom: none;
+    border-bottom: 2px solid #30c57b74;
+  }
+  .nav-item.cajita .nav-link.active {
+    border-bottom: none;
+    border-bottom: 2px solid #30c57a;
+  }
+  .textElegirnos {
+    margin-top: 2em;
+    margin: 1em 0.5em;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  #animation{
+    height: auto;
+    padding: 6em 0;
+  }
+  #textoAnimado{
+    display: none;
+  }
+  .imatgeSlogan{
+    display: block;
+    width: 100%;
+  }
+
+  #historia{
+    padding: 6em 0;
+  }
+  .titolStoria{
+    margin-bottom: 1.5rem;
+  }
+  .containerHistoria{
+    width: 92%;
+  }
+  .containerHistoria .fila{
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  #fila2{
+    flex-direction: column-reverse;
+  }
+  .divTextoHistoria, .divTextoHistoria2 {
+    width: 100%;
+    text-wrap: wrap;
+  }
+  .divTextoHistoria p, .divTextoHistoria2 p{
+    font-size: 1rem;
+  }
+  .divImagenHistoria{
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .imagenHistoria{
+    width: 75%;
+    height: auto;
+    min-height: 320px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.767);
+  }
+
+  #banner{
+    display: none;
+  }
+
+  #servicios{
+    padding-bottom: 6rem;
+  }
+  h2.titolSeccion{
+    font-size: 1.4rem;
+  }
+  .containerServicios {
+    width: 95%;
+  }
+  .gridServicios {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .lastRow {
+    width: 100%;
+  }
+  .element-item:hover img, .element-item2:hover img{
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .element-item .element-item-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .element-item2 .element-item-overlay2 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .element-item .element-item-overlay, .element-item2 .element-item-overlay2 {
+    opacity: 1;
+  }
+  .element-item .element-item-overlay span, .element-item2 .element-item-overlay2 span {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  
+  .modal-dialog{
+    left:5%;
+  }
+  .modal-dialog{
+    margin: 0;
+    width: 100%;
+  }
+  .btn-close {
+    font-size: 0.8rem;
+  }
+  .projects-modals .modal-dialog {
+    max-width: 90%;
+    margin-top: 2em;
+  }
+  .projects-modals .modal-content .image-container {
+    margin-bottom: 1rem;
+  }
+  .projects-modals .modal-content img {
+    border-radius: 6px;
+    margin-bottom: 0;
+  }
+  .projects-modals .modal-content h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .projects-modals .modal-content p {
+    padding-bottom: 1rem;
+    font-size: 1em;
+    text-align: center;
+  }
+  .projects-modals .modal-content hr {
+    margin: 0.5rem 0;
+  }
+  .divModalCol {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .divModalRow {
+    width: 100%;
+    flex-direction: column;
+  }
+  .divEsquerre {
+    width: 90%;
+    padding: 0 0em;
+  }
+  .divDreta {
+    width: 100%;
+    padding: 0 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #slideDentadura{
+    padding: 6em 0 0 0;
+    margin-bottom: 6em;
+  }
+  .rowDentadura{
+    flex-direction: column;
+  }
+  .divDentadura, .divFrase{
+    width: 100%;
+  }
+  .divFrase span {
     font-size: 1rem;
     padding: 6rem 0;
   }
@@ -2370,6 +4128,12 @@ footer {
   .sectionTarjeta{
     width: 80%;
     padding: 2rem 0;
+  }
+  .sectionTarjeta span {
+    font-size: 1.5em;
+  }
+  .sectionTarjeta p {
+    font-size: 1em;
   }
   .divIconoTarjeta{
     width: 30%;
@@ -2419,7 +4183,7 @@ footer {
   }
   
   #sponsors img{
-    width: 80%;
+    width: 90%;
   }
 
   .footerTop{
@@ -2430,24 +4194,38 @@ footer {
     width: 90%;
     display: flex;
     flex-direction: column;
-    padding: 1em 2em;
+    padding: 1em 0em;
+  }
+  .serviziFooter, .horarioFooter, .contactoFooter {
+    height: 300px;
+  }
+  .tituloFooter, .tituloFooter2 {
+    font-size: 2em;
   }
   .serviziFooter p{
     text-align: center;
     font-size: 1em;
   }
+  .cajitaHorario p {
+    font-size: 1em;
+  }
   .hoverFooter{
     font-size: 0.9rem;
   }
-
+  .divTextContactoFooter span {
+    font-size: 1.5rem;
+  }
+  .divTextContactoFooter a {
+    font-size: 1rem;
+  }
   .footerBottom{
     padding: 1rem;
     flex-direction: column;
     text-align: center;
   }
   .footerBottom p{
-    font-size: 0.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    margin-bottom: 0.7rem;
   }
 
   #myBtn {
@@ -2465,18 +4243,484 @@ footer {
     margin-bottom: 0.25rem;
     width: 14px;
   }
-
 }
 
-@media screen and (max-width: 374px) {
-  /* .titulo, h1, .e{
-    font-size: 1.4em;
-  } */
-  
-  
-}
+@media screen and (max-width: 320px) {
+  #portada .navbar{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 100;
+    transition: transform 0.3s;
+    transform: translateY(-100%);
+  }
+  #portada .navbar .cross{
+    align-self: flex-end;
+  }
+  #portada .navbar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem 0 1rem 0;
+  }
+  #portada .navbar ul li{
+    width: 60%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  #portada .navbar ul li a{
+    text-decoration: none;
+    color: #454545;
+    font-size: 1.2rem;
+  }
+  .navbar_toggle{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .iconMenu{
+    width: 50%;
+  }
+  .centrar-logo {
+    width: 80%;
+    z-index: 10;
+  }
+  .titulo{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulo h1, .e {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  .adjectius{
+    font-size: 1.8rem;
+  }
 
-@media screen and (min-width: 320px) {
+  #chiSiamo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 6em 0;
+    background-color: #f5f6fb;
+    overflow: hidden;
+  }
+  .divIzquierdaChiSiamo {
+    display: none;
+  }
+  .divDerechaChiSiamo {
+    display: none;
+  }
+  .divChiSiamo {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .divEscudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .titolChiSiamo{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  } 
+  .introChiSiamo{
+    font-size: 1.6rem;
+  }
+  .textChiSiamo{
+    width: 100%;
+    font-size: 1rem;
+    text-wrap: pretty;
+  }
+  .btnChiSiamo {
+    padding: 10px 30px;
+    color: #fff;
+    font-family: "Sen", sans-serif;
+    border: 0;
+    font-size: 1em;
+    text-decoration: none;
+    background: linear-gradient(to right, #1c9cd8 0%, #36ab49 100%);
+    transition: all 0.35s;
+  }
+  .imatgeChiSiamo{
+    width: 70%;
+    transform: translateY(0);
+    filter: drop-shadow(-40px 0px 30px #33333397);
+    position: relative;
+    margin: 2em 0 0 0;
+  }
   
   
+
+  #elegirnos{
+    padding: 6em 0;
+  }
+  .cajita {
+    width: 25%;
+  }
+  .cajaElegirnos {
+    width: 100%;
+  }
+  .cajaElegirnos ul li {
+    height: 100px;
+  }
+  .iconosElegirnos {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1em;
+  }
+  .titolCajita {
+    font-size: .55em;
+    font-weight: 600;
+    color: #454545;
+    text-align: center;
+  }
+  .nav-item.cajita .nav-link {
+    border-bottom: none;
+    border-bottom: 2px solid #30c57b74;
+  }
+  .nav-item.cajita .nav-link.active {
+    border-bottom: none;
+    border-bottom: 2px solid #30c57a;
+  }
+  .textElegirnos {
+    margin-top: 2em;
+    margin: 1em 0.5em;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  #animation{
+    height: auto;
+    padding: 6em 0;
+  }
+  #textoAnimado{
+    display: none;
+  }
+  .imatgeSlogan{
+    display: block;
+    width: 100%;
+  }
+
+  #historia{
+    padding: 6em 0;
+  }
+  .titolStoria{
+    margin-bottom: 1.5rem;
+  }
+  .containerHistoria{
+    width: 92%;
+  }
+  .containerHistoria .fila{
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  #fila2{
+    flex-direction: column-reverse;
+  }
+  .divTextoHistoria, .divTextoHistoria2 {
+    width: 100%;
+    text-wrap: wrap;
+  }
+  .divTextoHistoria p, .divTextoHistoria2 p{
+    font-size: 1rem;
+  }
+  .divImagenHistoria{
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .imagenHistoria{
+    width: 75%;
+    height: auto;
+    min-height: 320px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.767);
+  }
+
+  #banner{
+    display: none;
+  }
+
+  #servicios{
+    padding-bottom: 6rem;
+  }
+  h2.titolSeccion{
+    font-size: 1.4rem;
+  }
+  .containerServicios {
+    width: 95%;
+  }
+  .gridServicios {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .lastRow {
+    width: 100%;
+  }
+  .element-item:hover img, .element-item2:hover img{
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .element-item .element-item-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .element-item2 .element-item-overlay2 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .element-item .element-item-overlay, .element-item2 .element-item-overlay2 {
+    opacity: 1;
+  }
+  .element-item .element-item-overlay span, .element-item2 .element-item-overlay2 span {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  
+  .modal-dialog{
+    left:5%;
+  }
+  .modal-dialog{
+    margin: 0;
+    width: 100%;
+  }
+  .btn-close {
+    font-size: 0.8rem;
+  }
+  .projects-modals .modal-dialog {
+    max-width: 90%;
+    margin-top: 2em;
+  }
+  .projects-modals .modal-content .image-container {
+    margin-bottom: 1rem;
+  }
+  .projects-modals .modal-content img {
+    border-radius: 6px;
+    margin-bottom: 0;
+  }
+  .projects-modals .modal-content h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .projects-modals .modal-content p {
+    padding-bottom: 1rem;
+    font-size: 1em;
+    text-align: center;
+  }
+  .projects-modals .modal-content hr {
+    margin: 0.5rem 0;
+  }
+  .divModalCol {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .divModalRow {
+    width: 100%;
+    flex-direction: column;
+  }
+  .divEsquerre {
+    width: 90%;
+    padding: 0 0em;
+  }
+  .divDreta {
+    width: 100%;
+    padding: 0 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #slideDentadura{
+    padding: 6em 0 0 0;
+    margin-bottom: 6em;
+  }
+  .rowDentadura{
+    flex-direction: column;
+  }
+  .divDentadura, .divFrase{
+    width: 100%;
+  }
+  .divFrase span {
+    font-size: 0.8rem;
+    padding: 6rem 0;
+  }
+
+  .divTitolContacto {
+    padding-top: 6em;
+  }
+  .contacto{
+    flex-direction: column;
+    padding-bottom: 0em;
+  }
+  .tamañoCorreo{
+    font-size: 0.8rem;
+  }
+  .tarjetaIzquierda {
+    width: 95%;
+    margin: 0em 6em;
+    margin: auto;
+  }
+  .rowSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionTarjeta{
+    width: 80%;
+    padding: 2rem 0;
+  }
+  .sectionTarjeta span {
+    font-size: 1.5em;
+  }
+  .sectionTarjeta p {
+    font-size: 1em;
+  }
+  .divIconoTarjeta{
+    width: 30%;
+  }
+  .tarjetaColumn{
+    width: 70%;
+  }
+  .seccionContactoDerecha{
+    width: 90%;
+    padding: 2rem 0;
+  }
+  .subtitolContacto {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .seccionContactoDerecha p{
+    display: none;
+  }
+  .rowContacto{
+    flex-direction: column;
+  }
+  .inputContacto{
+    margin-right: 0;
+  }
+  .divTextarea{
+    padding: 0;
+  }
+  .divConsentimiento{
+    color: #fff;
+  }
+  .divConsentimiento p {
+    color: #fff;
+    margin: 2em;
+  }
+  .divBtnContacto{
+    padding: 0;
+  }
+  .btnContacto{
+    margin: 1rem 0;
+  }
+
+  #map {
+    width: 90%;
+    height: 60vh;
+    margin: 4em 0;
+  }
+  
+  #sponsors img{
+    width: 90%;
+  }
+
+  .footerTop{
+    width: 100%;
+    flex-direction: column;
+  }
+  .logoFooter, .serviziFooter, .horarioFooter, .contactoFooter {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0em;
+  }
+  .serviziFooter, .horarioFooter, .contactoFooter {
+    height: 300px;
+  }
+  .tituloFooter, .tituloFooter2 {
+    font-size: 1.5em;
+  }
+  .serviziFooter p{
+    text-align: center;
+    font-size: 1em;
+  }
+  .horarioFooter p{
+    text-align: center;
+    font-size: 1em;
+  }
+  .divTextContactoFooter span {
+    font-size: 1.5rem;
+  }
+  .divTextContactoFooter a {
+    font-size: 0.9rem;
+  }
+  .iconoContactoFooter {
+    width: 30px;
+    height: 30px;
+  }
+
+  .hoverFooter{
+    font-size: 0.9rem;
+  }
+
+  .footerBottom{
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footerBottom p{
+    font-size: 0.7rem;
+    margin-bottom: 0.7rem;
+  }
+
+  #myBtn {
+    bottom: 10px;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+  }
+  
+  #myBtn:hover {
+    background: linear-gradient(to right, #1c9cd8ca 0%, #36ab4ac5 100%);
+    transition: background 2s linear;
+  }
+  #myBtn img {
+    margin-bottom: 0.25rem;
+    width: 14px;
+  }
 } 
