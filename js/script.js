@@ -16,13 +16,15 @@ x.addEventListener("click", () => {
 });
 
 
+
+// Quitar animaciones aos a partir de los 430px
 if(window.screen.width <= 430){
+  
   let animations = document.querySelectorAll(".animada");
-  let array = [];
-  
-  // animations.classList.remove("aos-init");
-  
-  // console.log(typeof(animations))
+  animations.forEach(elemento => {
+    elemento.removeAttribute("data-aos");
+    elemento.removeAttribute("data-aos-duration");
+  });
 
 }
 
