@@ -2464,7 +2464,7 @@ footer {
 
 }
 
-@media screen and (min-width: 374px) {
+@media screen and (max-width: 374px) {
   /* .titulo, h1, .e{
     font-size: 1.4em;
   } */
