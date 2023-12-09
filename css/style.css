@@ -1780,7 +1780,7 @@ footer {
 }
 
 /* Animacio de sonrisa ja es pot fer (1000px) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1050px) {
   #portada ul {
     width: 60%;
     padding: 2rem 0;
