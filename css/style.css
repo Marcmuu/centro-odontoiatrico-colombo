@@ -1815,7 +1815,13 @@ footer {
   .btnContattaci {
     width: 80%;
   }
-
+  #textoAnimado{
+    display: none;
+  }
+  .imatgeSlogan{
+    display: block;
+    width: 100%;
+  }
   .divEsquerre {
     width: 50%;
     padding: 0;
