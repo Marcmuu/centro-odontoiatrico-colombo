@@ -1589,7 +1589,7 @@ footer {
     font-size: 1.5rem;
   }
   .centrar-logo {
-    width: 60vw;
+    width: 30vw;
   }
   .titulo {
     /* bottom: -5%; */
@@ -1602,22 +1602,22 @@ footer {
   }
 
   .titolChiSiamo {
-    font-size: 3.5rem;
+    font-size: 3rem;
   } 
   .introChiSiamo {
-    font-size: 4em;
+    font-size: 3.4em;
     font-weight: bold;
     color: #454545;
   }
   .textChiSiamo {
     color: #454545;
-    font-size: 2em;
+    font-size: 1.7em;
     margin-bottom: 2em;
     width: 95%;
   }
   .btnChiSiamo {
     padding: 1em 2em;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
     font-family: "Sen", sans-serif;
     border: 0;
@@ -1627,7 +1627,7 @@ footer {
   }
 
   .titolSeccion {
-    font-size: 3.5em;
+    font-size: 3em;
   }
 
   .iconosElegirnos {
@@ -1668,8 +1668,9 @@ footer {
     font-size: 2.5em;
   }
   .btnContattaci {
-    width: 80%;
-    font-size: 2.2em;
+    width: 60%;
+    font-size: 2em;
+    padding: 1em 2em;
   }
   .divEsquerre {
     width: 50%;
@@ -1688,8 +1689,25 @@ footer {
     font-size: 1.6em;
   }
 
+  .element-item .element-item-overlay span, .element-item2 .element-item-overlay2 span {
+    position: absolute;
+    z-index: 3;
+    top: 44%;
+    right: 0;
+    left: 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.625rem;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
   .titolContacto {
     font-size: 3.5rem;
+  }
+  .divIconoTarjeta {
+    width: 25%;
   }
   .sectionTarjeta span {
     font-size: 2.5em;
