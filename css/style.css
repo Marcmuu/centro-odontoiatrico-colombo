@@ -5377,3 +5377,9 @@ footer {
     width: 14px;
   }
 } 
+
+@media screen and (max-width: 700px) {
+  .element-item2 .element-item-overlay2{
+  opacity: 1;
+  }
+}
