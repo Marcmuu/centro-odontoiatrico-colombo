@@ -5380,6 +5380,6 @@ footer {
 
 @media screen and (max-width: 700px) {
   .element-item2 .element-item-overlay2{
-  opacity: 0;
+  opacity: 1;
   }
 }
