@@ -50,11 +50,11 @@ if (checkReplace !== null) {
 }
 
 
-// Animacion texto curvado
 // $(".arcText").arctext({
 //   radius: 600,
 //   dir: -1,
 // });
+
 
 // aparece cuando esta en medio de la pantalla, y despues añade a cada span una animation: con su nombre del css
 document.addEventListener("DOMContentLoaded", function () {
