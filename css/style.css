@@ -1146,7 +1146,7 @@ span.text-center:before {
   flex-direction: row;
   padding-top: 2em;
   padding-bottom: 10em;
-  background: url("./img/fondo-contacto.jpg")
+  background: url("./img/fondo-contacto.jpg");
     repeat;
   background-position: center center;
   background-repeat: no-repeat;
