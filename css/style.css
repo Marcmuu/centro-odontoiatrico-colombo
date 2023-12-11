@@ -1146,7 +1146,7 @@ span.text-center:before {
   flex-direction: row;
   padding-top: 2em;
   padding-bottom: 10em;
-  background: url("https://ld-wp73.template-help.com/wordpress/prod_2901/v3/wp-content/uploads/2020/12/contact-bg_04.jpg")
+  background: url("./img/fondo-contacto.jpg")
     repeat;
   background-position: center center;
   background-repeat: no-repeat;
