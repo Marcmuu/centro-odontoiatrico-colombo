@@ -1146,7 +1146,7 @@ span.text-center:before {
   flex-direction: row;
   padding-top: 2em;
   padding-bottom: 10em;
-  background: url("../img/fondo-contacto.jpg");
+  background: url("../img/fondoContacto2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1319,7 +1319,7 @@ textarea#descripcion {
 }
 
 /* mapa contacto */
-.map1 {
+/* .map1 {
   width: 100%;
   margin: auto;
   display: flex;
@@ -1329,7 +1329,7 @@ textarea#descripcion {
   width: 80%;
   height: 80vh;
   margin: 8em 0;
-}
+} */
 
 
 /* Sponsors */
