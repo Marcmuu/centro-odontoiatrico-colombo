@@ -154,17 +154,17 @@ $(function () {
 
 
 // MAPA CONTACTO
-var map = L.map("map").setView([45.377064, 11.853666], 16);
+// var map = L.map("map").setView([45.377064, 11.853666], 16);
 
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  attribution:
-    '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+// L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+//   maxZoom: 19,
+//   attribution:
+//     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     
-}).addTo(map);
+// }).addTo(map);
 
-var marker = L.marker([45.376932, 11.853655]).addTo(map).bindPopup('<b>Centro Odontoiatrico Colombo</b>')
-.openPopup();;
+// var marker = L.marker([45.376932, 11.853655]).addTo(map).bindPopup('<b>Centro Odontoiatrico Colombo</b>')
+// .openPopup();;
 
 // GOOGLE MAP API
 // Initialize and add the map
